@@ -1,14 +1,12 @@
-package com.hibernate.repositry;
+package com.Entity.repositry;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.hibernate.Entitys.Student;
 
-public interface StudentRepositry extends JpaRepository<Student, Long> {
-	
-	
-		
- 
+
+
+public interface StudentRepositry extends JpaRepository<Student, Long>{
 	
 
 }
